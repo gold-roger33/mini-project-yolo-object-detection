@@ -1,7 +1,11 @@
+# This script tests object detection on a video file.
+# The video is split into frames at 2-second intervals, and each frame is passed to the YOLO model for object detection.
+# The detected objects and their positions relative to the frame's center are printed.
+
 import cv2
 from ultralytics import YOLO
 
-video_path = 'square.mp4'
+video_path = 'YOUR VIDEO FILE LOCATION'
 cap = cv2.VideoCapture(video_path)
 
 fps = cap.get(cv2.CAP_PROP_FPS)

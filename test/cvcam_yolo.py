@@ -1,3 +1,7 @@
+#This code  capture live video using CV2 library from a webcam and these frame is 
+# passed to YOLO 
+
+
 import cv2
 from ultralytics import YOLO
 import pyttsx3
