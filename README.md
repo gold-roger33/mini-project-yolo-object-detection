@@ -1,12 +1,14 @@
-# YOLO Object Detection (Mini Project)
+# Object Detection System for Visually Impaired: Raspberry Pi & Python(Mini Project)
 
 This repository is the code for my  mini project that demonstrates real-time object detection using the YOLO (You Only Look Once) model in rasperry pi 4B.
+The project is designed to assist the visually impaired by detecting and announcing objects in their surroundings.
+
 
 
 ## Features
 
 - Real-time object detection using YOLO model
-- Video input from the default webcam
+- Video input from the camera module/webcam
 - Detection of various classes of objects
 - Announcement of detected objects and their positions using text-to-speech engine
 
@@ -16,7 +18,7 @@ This repository is the code for my  mini project that demonstrates real-time obj
 - ultralytics library
 - pyttsx3 library
 - Pre-trained YOLO model (yolov8n.pt)
-- Webcam (for real-time video input)
+- camera module (you can use web camera)
 - rasperry pi(you can run in pc)
 
 ## Usage
@@ -39,6 +41,7 @@ This repository is the code for my  mini project that demonstrates real-time obj
     cd final code
     python livecam.py
     ```
+4. Point the camera module towards the surroundings and listen to the announcements of detected objects.
 
 
 ## Additionals 
