@@ -1,6 +1,6 @@
 # YOLO Object Detection (Mini Project)
 
-This repository is the code for my  mini project that demonstrates real-time object detection using the YOLO (You Only Look Once) model.
+This repository is the code for my  mini project that demonstrates real-time object detection using the YOLO (You Only Look Once) model in rasperry pi 4B.
 
 
 ## Features
@@ -17,6 +17,7 @@ This repository is the code for my  mini project that demonstrates real-time obj
 - pyttsx3 library
 - Pre-trained YOLO model (yolov8n.pt)
 - Webcam (for real-time video input)
+- rasperry pi(you can run in pc)
 
 ## Usage
 
